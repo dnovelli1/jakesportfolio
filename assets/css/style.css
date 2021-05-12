@@ -1,5 +1,6 @@
 body {
     background: darkgray;
+    font-family: 'Girassol', cursive;
 }
 
 .nav-wrapper {
@@ -7,6 +8,10 @@ body {
     background-size: 600% 600%;
 
     animation: AnimationName 8s ease infinite;
+}
+
+.sidenav {
+    background: darkgray;
 }
 
 .card {
@@ -41,10 +46,31 @@ body {
     color: white;
 }
 
+.card .card-title {
+    color: white;
+}
+
 .card p {
     color: white;
 }
 
 .brand-logo {
     margin-left: 5px;
+}
+
+.footer-text ul li a{
+    font-size: 15px;
+    color: var(--textcolor);
+}
+
+.footer-text a:hover {
+    color: rgb(88, 85, 85);
+}
+
+h3 {
+    font-weight: bolder;
+}
+
+.weather {
+    color: darkgray;
 }
