@@ -1,0 +1,50 @@
+body {
+    background: darkgray;
+}
+
+.nav-wrapper {
+    background: linear-gradient(270deg, #000000, #07285f, #0f4e8a);
+    background-size: 600% 600%;
+
+    animation: AnimationName 8s ease infinite;
+}
+
+.card {
+    background: linear-gradient(270deg, #000000, #07285f, #0f4e8a);
+    background-size: 600% 600%;
+
+    animation: AnimationName 8s ease infinite;
+}
+
+.page-footer {
+    background: linear-gradient(270deg, #000000, #07285f, #0f4e8a);
+    background-size: 600% 600%;
+
+    animation: AnimationName 8s ease infinite;
+}
+
+.buttons {
+    background: linear-gradient(270deg, #000000, #07285f, #0f4e8a);
+    background-size: 600% 600%;
+
+    animation: AnimationName 8s ease infinite;
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.card .card-reveal {
+    background: darkgray;
+    color: white;
+}
+
+.card p {
+    color: white;
+}
+
+.brand-logo {
+    margin-left: 5px;
+}

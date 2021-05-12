@@ -51,27 +51,96 @@
         </ul>
     </header>
     <main class="container">
-        <div class="carousel carousel-slider center">
-            <div class="carousel-item" href="#one!">
-                <h2>My Projects</h2>
-                <p class="white-text">Scroll through to see a few of my applications. Click the buttons to view the repository on GitHub or the Full Site!</p>
-            </div>
-            <div class="carousel-item" href="#two!">
-                <h2>Sporcle But Better</h2>
-                <a class="waves-effect waves-light btn-small"><i class="material-icons right">cloud</i>GitHub</a>
-                <a class="waves-effect waves-light btn-small"><i class="material-icons right">cloud</i>Full Site</a>
-            </div>
-            <div class="carousel-item" href="#three!">
-                <h2>Expedition Apetite</h2>
-                <a class="waves-effect waves-light btn-small"><i class="material-icons right">cloud</i>GitHub</a>
-                <a class="waves-effect waves-light btn-small"><i class="material-icons right">cloud</i>Full Site</a>
-            </div>
-            <div class="carousel-item" href="#four!">
-                <h2>Weather Dashboard</h2>
-                <a class="waves-effect waves-light btn-small"><i class="material-icons right">cloud</i>GitHub</a>
-                <a class="waves-effect waves-light btn-small"><i class="material-icons right">cloud</i>Full Site</a>
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="./images/projectimage.jpg"> <!-- random image -->
+                    <div class="caption center-align">
+                        <h3>My Projects</h3>
+                    </div>
+                </li>
+                <li>
+                    <img src="https://lorempixel.com/580/250/nature/2"> <!-- random image -->
+                    <div class="caption left-align">
+                        <h3>Sporcle But Better</h3>
+                        <a class="waves-effect waves-light btn-small buttons" target=blank
+                            href="https://github.com/dnovelli1/project2"><i class="fab fa-github-square"></i> GitHub</a>
+                        <a class="waves-effect waves-light btn-small buttons" target=blank
+                            href="https://radiant-chamber-32939.herokuapp.com/"><i class="fas fa-satellite-dish"></i>
+                            Full Site</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="https://lorempixel.com/580/250/nature/3"> <!-- random image -->
+                    <div class="caption right-align">
+                        <h3>Expedition Appetite</h3>
+                        <a class="waves-effect waves-light btn-small buttons" target=blank
+                            href="https://github.com/SerenaChandler/Project1"><i class="fab fa-github-square"></i>
+                            GitHub</a>
+                        <a class="waves-effect waves-light btn-small buttons" target=blank
+                            href="https://serenachandler.github.io/Project1/"><i class="fas fa-satellite-dish"></i> Full
+                            Site</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="https://lorempixel.com/580/250/nature/4"> <!-- random image -->
+                    <div class="caption center-align">
+                        <h3>Weather Dashboard</h3>
+                        <a class="waves-effect waves-light btn-small buttons" target=blank
+                            href="https://github.com/dnovelli1/weatherdashboard"><i class="fab fa-github-square"></i>
+                            GitHub</a>
+                        <a class="waves-effect waves-light btn-small buttons" target=blank
+                            href="https://dnovelli1.github.io/weatherdashboard/"><i class="fas fa-satellite-dish"></i>
+                            Full Site</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <br>
+        <div class="divider"></div>
+        <br>
+        <div class="row aboutMe" width="100%" height="100%">
+            <div class="card">
+                <div class="card-image">
+                    <img class="activator" src="./images/server.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator">Welcome to my Coding Portfolio<i class="far fa-arrow-alt-circle-up right"></i></span>
+                    <p>Click the arrow on the right to see About Me!</p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title activator">About Me<i class="fas fa-times-circle right"></i></span>
+                    <p>Hello and welcome to my Professional Coding Portfolio. My name is Jake Novelli and I am 27 years old from the Bay Area of California.</p>
+                    <p>I am a future Full Stack Web Developer who specializes in HTML, CSS, Javascript, Node, MySQL, Express, and many more!</p>
+                    <p>Please have a glimpse into what your website could offer in the Carousel above</p>
+                    <p>For business inquiries please choose one of the methods in menu on mobile or top right of the page on desktop.</p>
+                    <p>If you would like a copy of my resume, please click the file icon in the top right on desktop, or the "Download My Resume" link in the menu on mobile. Both will begin a download of my Resume.</p>
+                </div>
             </div>
         </div>
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-text">
+                        <h5>Thank You for taking the time to Stop By!</h5>
+                        <div class="divider"></div>
+                        <h6>Technology Used on This Site</h6>
+                        <ul>
+                            <!-- Links to Technologies Used -->
+                            <li><a class="flow-text" target=blank href="https://materializecss.com/">Materialize CSS</a></li>
+                            <li><a class="flow-text" target=blank href="https://jquery.com/">jQuery</a></li>
+                            <li><a class="flow-text" target=blank href="https://fontawesome.com/">Font Awesome</a></li>
+                            <li><a class="flow-text" target=blank href="https://fonts.google.com/">Google Fonts</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-text">
+                <div class="container">
+                    © 2021 Copyright Text
+                </div>
+            </div>
+        </footer>
     </main>
 
     <!-- jQuery Script -->
@@ -89,9 +158,8 @@
             $('.collapsible').collapsible();
         });
 
-        $('.carousel.carousel-slider').carousel({
-            fullWidth: true,
-            indicators: true
+        $(document).ready(function () {
+            $('.slider').slider();
         });
     </script>
 </body>
