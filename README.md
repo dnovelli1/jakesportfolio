@@ -2,7 +2,7 @@
 
 It's time for another profile update! Over the last month I have begun to work with full stack applications. Diving right into the work with databases and creating the connection between front-end development and backend. I needed to update my portfolio with some of my new work. Unfortunately some of the assignments are done through the console, so I had to leave a few out. As soon as they are deployed I will be sure to enter them into the carousel. If you would like to view my portfolio, please click the link below:
 
-[Portfolio](https://dnovelli1.github.io/updatedcodingportfolio/)
+[Portfolio](https://dnovelli1.github.io/jakesportfolio/)
 
 
 ## Table of Contents
