@@ -3,6 +3,10 @@ body {
     font-family: 'Girassol', cursive;
 }
 
+img {
+    opacity: 0.6;
+}
+
 .nav-wrapper {
     background: linear-gradient(270deg, #000000, #07285f, #0f4e8a);
     background-size: 600% 600%;
